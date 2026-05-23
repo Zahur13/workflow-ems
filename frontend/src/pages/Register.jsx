@@ -68,8 +68,8 @@ export default function Register() {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                className="block relative px-3 py-3 w-full placeholder-gray-500 text-gray-900 rounded-lg border border-gray-300 transition-all appearance-none focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="John Doe"
+                className="block relative px-3 py-3 w-full placeholder-gray-400 text-gray-900 rounded-lg border border-gray-300 transition-all appearance-none focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent focus:z-10 sm:text-sm"
+                placeholder="Full Name"
               />
             </div>
             <div>
@@ -87,8 +87,8 @@ export default function Register() {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="block relative px-3 py-3 w-full placeholder-gray-500 text-gray-900 rounded-lg border border-gray-300 transition-all appearance-none focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                placeholder="manager@workflow.com"
+                className="block relative px-3 py-3 w-full placeholder-gray-400 text-gray-900 rounded-lg border border-gray-300 transition-all appearance-none focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent focus:z-10 sm:text-sm"
+                placeholder="email@example.com"
               />
             </div>
             <div>
@@ -106,7 +106,7 @@ export default function Register() {
                 required
                 value={formData.password}
                 onChange={handleChange}
-                className="block relative px-3 py-3 w-full placeholder-gray-500 text-gray-900 rounded-lg border border-gray-300 transition-all appearance-none focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                className="block relative px-3 py-3 w-full placeholder-gray-400 text-gray-900 rounded-lg border border-gray-300 transition-all appearance-none focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent focus:z-10 sm:text-sm"
                 placeholder="••••••••"
               />
             </div>
@@ -122,7 +122,7 @@ export default function Register() {
                 name="role"
                 value={formData.role}
                 onChange={handleChange}
-                className="block px-3 py-3 w-full text-gray-900 bg-white rounded-lg border border-gray-300 transition-all focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                className="block px-3 py-3 w-full text-gray-900 bg-white rounded-lg border border-gray-300 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent sm:text-sm"
               >
                 <option value="employee">Employee</option>
                 <option value="manager">Manager</option>

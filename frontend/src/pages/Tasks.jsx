@@ -147,7 +147,7 @@ export default function Tasks() {
                   type="text" 
                   value={formData.title}
                   onChange={(e) => setFormData({...formData, title: e.target.value})}
-                  className="w-full px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 dark:bg-slate-900 focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
+                  className="w-full px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 dark:bg-slate-900 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
                   placeholder="Task title"
                 />
               </div>
@@ -157,7 +157,7 @@ export default function Tasks() {
                   required
                   value={formData.description}
                   onChange={(e) => setFormData({...formData, description: e.target.value})}
-                  className="w-full px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 dark:bg-slate-900 focus:ring-2 focus:ring-indigo-500 outline-none transition-all h-24"
+                  className="w-full px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 dark:bg-slate-900 text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500 outline-none transition-all h-24"
                   placeholder="Describe the task..."
                 />
               </div>
@@ -167,7 +167,7 @@ export default function Tasks() {
                   <select 
                     value={formData.priority}
                     onChange={(e) => setFormData({...formData, priority: e.target.value})}
-                    className="w-full px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 dark:bg-slate-900 outline-none transition-all"
+                    className="w-full px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 dark:bg-slate-900 text-slate-900 dark:text-white outline-none transition-all"
                   >
                     <option value="low">Low</option>
                     <option value="medium">Medium</option>
@@ -180,7 +180,7 @@ export default function Tasks() {
                     type="date" 
                     value={formData.deadline}
                     onChange={(e) => setFormData({...formData, deadline: e.target.value})}
-                    className="w-full px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 dark:bg-slate-900 outline-none transition-all"
+                    className="w-full px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 dark:bg-slate-900 text-slate-900 dark:text-white outline-none transition-all"
                   />
                 </div>
               </div>
@@ -190,7 +190,7 @@ export default function Tasks() {
                   required
                   value={formData.assignedTo}
                   onChange={(e) => setFormData({...formData, assignedTo: e.target.value})}
-                  className="w-full px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 dark:bg-slate-900 outline-none transition-all"
+                  className="w-full px-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 dark:bg-slate-900 text-slate-900 dark:text-white outline-none transition-all"
                 >
                   <option value="">Select Employee</option>
                   {employees.map(emp => (
